@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  src:  url('../../static/fonts/Roboto_Slab_normal_400_ru.woff2') format('woff2'),
+        url('../../static/fonts/Roboto_Slab_normal_400.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src:  url('../../static/fonts/Roboto_Slab_normal_400_en.woff2') format('woff2'),
+        url('../../static/fonts/Roboto_Slab_normal_400.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hello {
+  margin: 1rem;
+  color: rgb(111, 0, 0);
+  font-family: 'Roboto Slab';
+  font-size: 48px;
+  background-image: url('../../static/images/flute_by_guweiz_dar1pk8-fullview.jpg');
+}
